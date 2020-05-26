@@ -1,0 +1,22 @@
+body {
+  background-color:#FF6AD5;
+  
+}
+h1 {
+  color: black;
+  position: centred;
+  margin-left: 20%;
+  margin-top: 100px;
+  top: 10000px;
+}
+p {
+  color: red;
+}
+
+img {
+
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
