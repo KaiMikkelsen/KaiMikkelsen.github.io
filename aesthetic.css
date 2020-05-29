@@ -4,6 +4,14 @@
 
 }
 
+
+#banner h2{
+
+    position: absolute;
+  
+}
+
+
 h1{
 
     text-align: center;
@@ -11,22 +19,28 @@ h1{
     color: 	#ff71ce;
     margin-top: 2%;
     margin-bottom:2%;
+    position:relative;
+    
 
 }
 
 h2{
 
 font-family: 'Streamster';
-position: absolute;
-
 color:#53CBBF;
-right: 25%;
-top:8%;
 
-/*margin-left: 80%;
-margin-top: 0%;*/
+position: absolute;
+top: 60px;
+left:330px;
+text-align: center;
+width: 100%;
 transform:rotate(-30deg);
+
+
 }
+
+
+
 
 
 @font-face {
