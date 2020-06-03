@@ -12,7 +12,7 @@
     margin-left:10%;
     margin-right:10%;
     margin-bottom:00%;
-    height:550px;
+    height:auto;
  
 
 
@@ -30,19 +30,32 @@
     margin-left:100%;
 }
 
-.imgpillar{
-    position:absolute;
-        left: 40px;
-        top: 30px;
-        height:150px;
 
-       
-    }
 
 .paragraphimage
 {
-height:200px;
+height:400px;
+width:auto;
+margin-bottom:0%;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top:2%;
 
+
+}
+
+h3{
+margin-top:0%;
+text-align: center;
+
+}
+
+.mainimagecontent
+{
+
+    
 
 
 
@@ -119,7 +132,12 @@ margin-right:2%;
 
 
 
-.grid-container { width: 100%; position: absolute; bottom: 0; left: 0; }
+.grid-container { 
+    width: 100%; 
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px ; 
+}
 
 .grid-container:after { 
   -webkit-mask-image: -webkit-gradient(linear, left 90%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
