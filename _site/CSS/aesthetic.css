@@ -611,7 +611,7 @@ body{
     8. Height (px)
   */
   .aesthetic-effect-text-glitch {
-    color: white;
+    color: black;
     position: relative; }
   
   @keyframes aesthetic-effect-text-glitch-anim-1 {
