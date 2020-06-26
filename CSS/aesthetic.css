@@ -11,6 +11,21 @@ h1{
 
 }
 
+h2{
+
+  font-family: 'Streamster';
+  color:#53CBBF;
+  z-index:-1;
+  position: absolute;
+  top: 60px;
+  left:320px;
+  text-align: center;
+  width: 100%;
+  transform:rotate(-35deg);
+  
+  
+  }
+
 .buttonspacer{
     display:flex;
     flex-direction: row;
@@ -64,6 +79,20 @@ margin-left:1%;
 }
 
 
+
+.albumcover
+{
+    height:auto;
+    width:auto;
+    margin-bottom:0%;
+    display: block;
+   margin-left: auto;
+   margin-right:auto;
+
+    margin-top:2%;
+
+}
+
 .paragraphimage
 {
     height:auto;
@@ -83,25 +112,46 @@ text-align: center;
 
 }
 
-
-
-h2{
-
-font-family: 'Streamster';
-color:#53CBBF;
-z-index:-1;
-position: absolute;
-top: 60px;
-left:320px;
+h4{
 text-align: center;
-width: 100%;
-transform:rotate(-35deg);
+
+font-size: 150%;
+margin-top:1%;
+
+}
+
+h5{
+
+font-size: 100%;
+font-weight:normal;
+
+margin-left:2%;
+margin-right:2%;
 
 
 }
 
+h6{
+
+font-size: 200%;
+margin-top:2%;
+margin-left:2%;
+margin-bottom:4%;
+
+}
+
+h7{
+font-size: 150%;
+display:grid;
+margin-bottom:0.5%;
 
 
+}
+.songclass{
+  margin-top:2%;
+  margin-bottom:4%;
+  text-align:center;
+}
 
 
 @font-face {
